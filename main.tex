@@ -1,0 +1,54 @@
+% !TeX document-id = {2ddbd1b4-2891-40ba-b701-110b740c7454}
+% !TeX root = main.tex
+% !TeX TXS-program:compile = txs:///pdflatex/[--shell-escape]
+
+% Dokumenteneinstellungen
+\input{miscellaneous/preambel}
+
+\begin{document}
+
+% Titelseite
+\input{chapters/titlepage}
+
+% Abstract
+%\input{chapters/abstract}
+
+% Inhaltsverzeichnis
+\input{chapters/directories/contents}
+
+% Abbildungsverzeichnis
+\input{chapters/directories/figures}
+
+% Tabellenverzeichnis
+\input{chapters/directories/tables}
+
+% Quellcodeverzeichnis
+\input{chapters/directories/listings}
+
+% Abkuerzungsverzeichnis
+\input{chapters/directories/abbreviations}
+
+\pagestyle{fancy}
+% Einleitung
+\input{chapters/chapter1}
+
+% Grundlagen
+\input{chapters/chapter2}
+
+% Performance
+\input{chapters/chapter3}
+
+% Kompatibilität
+\input{chapters/chapter4}
+
+% Schlussbetrachtung
+\input{chapters/chapter5}
+
+
+%Bibliography 
+\input{chapters/bibliography}
+
+%Appendix
+\input{chapters/appendix}
+
+\end{document}
